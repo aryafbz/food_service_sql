@@ -17,10 +17,13 @@ insert into professors
 values(2 , 1098765432 , "computer engeener" , "master");
 
 insert into food
-values(1 , "kabab" , "2025-05-18" , "sunday");
+values(1 , "kabab" , 20.00 , "2025-05-18" , "sunday");
 
 insert into food
-values(2 , "ghormesabzi" , "2025-05-18" , "monday");
+values(2 , "ghormesabzi" , 15.00 , "2025-05-18" , "monday");
 
 insert into order_food(person_id , food_id)
 values(1 , 1);
+
+insert into order_food(person_id , food_id)
+values(1 , 2);
